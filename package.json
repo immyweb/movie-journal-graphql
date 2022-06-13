@@ -1,0 +1,21 @@
+{
+  "name": "movie-journal-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL API for Movie Journal app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.6.0",
+    "apollo-server": "^3.8.2",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
