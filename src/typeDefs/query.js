@@ -9,6 +9,12 @@ const query = gql`
     getMovieCrew(id: ID, offset: Int, limit: Int): [Crew]
     searchMovie(title: String, offset: Int, limit: Int): [Result]
   }
+
+  type Mutation {
+    addMovie(input: newMovie): Movie
+    updateMovie(id: ID, input: newMovie): Movie
+    deleteMovie(id: ID): Movie
+  }
 `;
 
 module.exports = query;
