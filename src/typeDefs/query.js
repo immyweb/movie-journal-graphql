@@ -8,6 +8,7 @@ const query = gql`
     getMovieCast(id: ID, offset: Int, limit: Int): [Cast]
     getMovieCrew(id: ID, offset: Int, limit: Int): [Crew]
     searchMovie(title: String, offset: Int, limit: Int): [Result]
+    getUsers: [User]
   }
 
   type Mutation {
